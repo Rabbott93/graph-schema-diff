@@ -6,7 +6,7 @@ from mistralai import Mistral
 
 
 # Your API token for accessing Mistral's hosted API
-token = "b3gNQMwOtDs1mHDVMJMjTAEgy1uS82oj"
+token = <mistral_api_token>
 client = Mistral(api_key=token)
 
 
