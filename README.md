@@ -56,8 +56,11 @@ Example response:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. **Run the application**:
+  
+3. **Mistral API key**:
+   ```Put mistral api token into line 9 of schema_diff.py (sorry did not have time to change)```
+   
+5. **Run the application**:
    ```bash
    uvicorn main:app --reload
    ```
