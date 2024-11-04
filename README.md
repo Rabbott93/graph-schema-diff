@@ -91,10 +91,6 @@ If an error occurs (e.g., invalid schema), the endpoint will respond with a `400
 - `parsers.py`: Contains functions for schema parsing.
 - `schema_diff.py`: Contains functions to find schema differences, format JSON, and generate release notes.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Acknowledgments
 
 - **Mistral**: Used for generating release notes.
