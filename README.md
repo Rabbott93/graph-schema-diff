@@ -1,4 +1,4 @@
- Schema Diff API
+ # Schema Diff API
 
 This is a FastAPI-based service that analyzes two versions of a schema and provides a comparison of the differences. It identifies breaking and non-breaking changes, formats these differences in JSON, and generates release notes for each category.
 
