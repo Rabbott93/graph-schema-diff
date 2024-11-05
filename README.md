@@ -77,8 +77,8 @@ curl -X POST "http://127.0.0.1:8000/diff/" -H "Content-Type: application/json" -
 ```
 ### Example 2
 
-```Go to: http://127.0.0.1:8000/docs#/default/get_diff_diff__post to use UI
-```
+Go to: http://127.0.0.1:8000/docs#/default/get_diff_diff__post to use UI
+
 
 ## Error Handling
 
