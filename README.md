@@ -52,9 +52,10 @@ Example response:
    cd schema-diff-api
    ```
 
-2. **Create environment:
-  
-3. **Mistral API key**:
+2. **Create environment**:
+  ```  conda env create -f environment.yml
+```
+4. **Mistral API key**:
    ```Put mistral api token into line 9 of schema_diff.py (sorry did not have time to change)```
    
 5. **Run the application**:
@@ -73,6 +74,10 @@ curl -X POST "http://127.0.0.1:8000/diff/" -H "Content-Type: application/json" -
   "schema1": "...",
   "schema2": "..."
 }'
+```
+### Example 2
+
+```Go to: http://127.0.0.1:8000/docs#/default/get_diff_diff__post to use UI
 ```
 
 ## Error Handling
