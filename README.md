@@ -59,7 +59,7 @@ Example response:
    
 5. **Run the application**:
    ```bash
-   uvicorn main:app --reload
+   uvicorn api:app --reload
    ```
 
 ## Usage
