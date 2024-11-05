@@ -52,10 +52,7 @@ Example response:
    cd schema-diff-api
    ```
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. **Create environment:
   
 3. **Mistral API key**:
    ```Put mistral api token into line 9 of schema_diff.py (sorry did not have time to change)```
